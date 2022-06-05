@@ -1,0 +1,14 @@
+.main {
+  background: $main_white;
+  min-height: 50vh;
+}
+
+#theme:checked .main {
+  background-color: aquamarine;
+}
+
+@import "./hero";
+@import "./history";
+@import "./proofs";
+@import "./gallery";
+@import "./form";

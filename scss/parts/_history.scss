@@ -1,0 +1,19 @@
+.history {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(
+      to bottom,
+      #ffffffcc,
+      #ffffff77,
+      transparent
+    ),
+    url("../../assets/ornament.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: right center;
+  .text {
+    font-size: 1em;
+    white-space: nowrap;
+    text-align: center;
+  }
+}

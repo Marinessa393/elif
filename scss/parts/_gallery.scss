@@ -1,0 +1,22 @@
+.gallery {
+  text-align: center;
+  padding-bottom: 20px;
+  .title {
+    font-size: $middle_font;
+  }
+  .subtitle {
+    width: 75%;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+
+  .gallery_videos {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: calc(100% / 3 - 20px);
+      margin: 10px;
+    }
+  }
+}
