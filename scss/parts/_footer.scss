@@ -1,0 +1,30 @@
+.footer {
+  background-color: $main_black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-top: 1px solid $main_white;
+
+  .contacts {
+    color: $main_white;
+    font-size: $extrasmall_font;
+
+    .accent {
+      color: $accent_color;
+    }
+  }
+
+  .copyright {
+    color: $main_white;
+    font-size: $extrasmall_font;
+
+    p:first-child {
+      margin-top: 0;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
